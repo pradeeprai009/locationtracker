@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="10dp"
+        android:padding="10dp"
+        app:cardMaxElevation="10dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/txtv_locations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="25sp"
+            android:padding="15dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
